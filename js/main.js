@@ -154,12 +154,12 @@ var FifthBar = document.getElementById('bc_fifth');
 var SixthBar = document.getElementById('bc_sixth');
 var TabletCondensedHamburger = document.getElementById('condensed_hamburger_tablet');
 
-var hamburgerMenuOn = false;
+var hamburgerTabletMenuOn = false;
 
 function hamburger_animation_tablet (){
 	event.preventDefault();
 
-	if(hamburgerMenuOn){
+	if(hamburgerTabletMenuOn){
 		FourthBar.style.transform = 'rotate(0deg)';
 		FifthBar.style.opacity = 1;
 		SixthBar.style.transform = 'rotate(0deg)';
@@ -167,7 +167,7 @@ function hamburger_animation_tablet (){
 		SixthBar.style.background = '#00467F';
 		TabletCondensedHamburger.style.background = 'white';
 
-		hamburgerMenuOn = false;
+		hamburgerTabletMenuOn = false;
 
 		document.getElementById("condensed_menu_tablet").style.top = "-998px";
 
@@ -179,7 +179,7 @@ function hamburger_animation_tablet (){
 		SixthBar.style.background = 'white';
 		TabletCondensedHamburger.style.background = '#00467F';
 
-		hamburgerMenuOn = true;
+		hamburgerTabletMenuOn = true;
 
 		document.getElementById("condensed_menu_tablet").style.top = "70px";
 	}
@@ -196,12 +196,12 @@ var EigthBar = document.getElementById('bc_eigth');
 var NinthBar = document.getElementById('bc_ninth');
 var MobileCondensedHamburger = document.getElementById('condensed_hamburger_mobile');
 
-var hamburgerMenuOn = false;
+var hamburgerMobileMenuOn = false;
 
 function hamburger_animation_mobile (){
 	event.preventDefault();
 
-	if(hamburgerMenuOn){
+	if(hamburgerMobileMenuOn){
 		SeventhBar.style.transform = 'rotate(0deg)';
 		EigthBar.style.opacity = 1;
 		NinthBar.style.transform = 'rotate(0deg)';
@@ -209,7 +209,7 @@ function hamburger_animation_mobile (){
 		NinthBar.style.background = '#00467F';
 		MobileCondensedHamburger.style.background = 'white';
 
-		hamburgerMenuOn = false;
+		hamburgerMobileMenuOn = false;
 
 		document.getElementById("condensed_menu_mobile").style.top = "-929px";
 
@@ -221,7 +221,7 @@ function hamburger_animation_mobile (){
 		NinthBar.style.background = 'white';
 		MobileCondensedHamburger.style.background = '#00467F';
 
-		hamburgerMenuOn = true;
+		hamburgerMobileMenuOn = true;
 
 		document.getElementById("condensed_menu_mobile").style.top = "70px";
 	}
