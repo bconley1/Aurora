@@ -71,6 +71,7 @@ a:visited {
 	margin: 0px;
 	border: none;
     overflow-x: hidden;
+    overflow-y: hidden;
     background-color: white;
     border-bottom: 1px solid lightgray;
     transition: .35s all ease;
@@ -88,6 +89,7 @@ a:visited {
 	margin: 0px;
 	border: none;
     overflow-x: hidden;
+    overflow-y: hidden;
     background-color: white;
     border-bottom: 1px solid lightgray;
     transition: .35s all ease;
@@ -105,6 +107,7 @@ a:visited {
 	margin: 0px;
 	border: none;
     overflow-x: hidden;
+    overflow-y: hidden;
     background-color: white;
     border-bottom: 1px solid lightgray;
     transition: .35s all ease;
