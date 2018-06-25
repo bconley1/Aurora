@@ -151,6 +151,7 @@ a:visited {
     z-index: 1;
     top: -339px;
     overflow-x: hidden;
+    overflow-y: hidden;
     transition: 0.5s;
 }
 .hidden_desktop_search_menu {
@@ -160,6 +161,7 @@ a:visited {
     z-index: 1;
     top: -230px;
     overflow-x: hidden;
+    overflow-y: hidden;
     transition: 0.5s;
 }
 .hidden_tablet_search_menu {
@@ -187,6 +189,7 @@ a:visited {
     z-index: 1;
     top: -998px;
     overflow-x: hidden;
+    overflow-y: hidden;
     transition: 0.5s;
 }
 .hidden_condensed_menu_tablet{
